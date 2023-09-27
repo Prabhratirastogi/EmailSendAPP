@@ -141,5 +141,5 @@ EMAIL_USE_TLS = True
 EMAIL_HOST = 'smtp.zoho.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'prabhrati.rastogi@artiligent.global'
-EMAIL_HOST_PASSWORD = 'Bholenathshankar@2020'
+EMAIL_HOST_USER = 'Your-email'
+EMAIL_HOST_PASSWORD = 'your-email-password'

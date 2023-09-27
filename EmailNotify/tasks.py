@@ -24,7 +24,6 @@
 #     send_mail(
 #         subject,
 #         message,
-#         'prabhrati.rastogi@artiligent.global',  # Sender's email
 #         [recipient],  # List of recipient email addresses
 #         fail_silently=False,
 #     )
