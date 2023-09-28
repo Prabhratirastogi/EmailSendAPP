@@ -136,10 +136,16 @@ CELERY_TIMEZONE = 'Asia/Kolkata'
 
  
 # Email Configuration
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+# EMAIL_USE_TLS = True
+# EMAIL_HOST = 'smtp.zoho.com'
+# EMAIL_PORT = 465
+# EMAIL_USE_TLS = True
+
+EMAIL_PORT = 587 
+EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
 EMAIL_USE_TLS = True
-EMAIL_HOST = 'smtp.zoho.com'
-EMAIL_PORT = 587
-EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'Your-email'
-EMAIL_HOST_PASSWORD = 'your-email-password'
+EMAIL_HOST = "smtp.gmail.com"
+EMAIL_HOST_USER = 'user mail'
+EMAIL_HOST_PASSWORD = "user password"
+DEFAULT_FROM_EMAIL = 'Celery <user mail>'

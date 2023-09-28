@@ -5,3 +5,4 @@ class EmailSerializer(serializers.Serializer):
     subject = serializers.CharField()
     message = serializers.CharField()
     recipient = serializers.ListField(child=serializers.EmailField())
+
