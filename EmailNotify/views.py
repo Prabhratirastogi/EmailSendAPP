@@ -40,7 +40,7 @@ class EmailSendView(APIView):
             send_mail(
                 subject,
                 message,
-                'prabhrati.rastogi@artiligent.global',  # Sender's email
+                '',  # Sender's email
                 recipient,  
                 fail_silently=False,
             )
